@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('box');
+  this.route('div-playground');
 });
 
 export default Router;
