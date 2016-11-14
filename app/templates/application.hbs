@@ -1,4 +1,11 @@
-{{#link-to 'box'}}Box{{/link-to}}
-{{#link-to 'div-playground'}}Div playground{{/link-to}}
-<h2>Hey ya'll! We be praciticing CSS fool.</h2>
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      {{#link-to 'index'}}<a class="navbar-brand hover">Home</a>{{/link-to}}
+      {{#link-to 'box'}}<a class="navbar-brand hover">Box</a>{{/link-to}}
+      {{#link-to 'div-playground'}}<a class="navbar-brand hover">Div</a>{{/link-to}}
+    </div>
+  </nav>
+</header>
+<h2></h2>
 {{outlet}}

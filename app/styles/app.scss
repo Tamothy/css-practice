@@ -1,3 +1,7 @@
+body {
+  font-family: futura;
+}
+
 h5 {
   color: green;
 }
@@ -19,6 +23,10 @@ h5.friends {
   position: absolute; right: 6%;
   color: red;
 }
+.navBar {
+  padding: 10px;
+  background-color: #D8D8D8;
+}
 .abc {
   border-bottom: solid #9727FA 2px;
   padding-bottom: 5px;
@@ -36,7 +44,18 @@ h5.friends {
   padding: 30px;
   width: 500px;
   height: 475px;
+  margin-top: 8%;
   margin-left: 2.5%;
+}
+.border {
+  margin: 50px;
+  padding: 50px;
+  height: 800px;
+  border: #00B3B4 solid 5px;
+}
+
+.kascading {
+  padding: 20px;
 }
 .numbers {
   color: red;
@@ -52,13 +71,13 @@ h5.friends {
 }
 .lemon {
   width: 400px;
-  padding-top: 50px;
+  padding-top: 56px;
   padding-right: 50px;
   padding-left: 50px;
   height: 400px;
   border: #4A90E2 solid 3px;
   box-sizing: border-box;
-  position: absolute; left: 7%;
+  position: absolute; left: 12%;
   text-align: center;
   color: #9727FA;
   background-color: #A8C2E1;
@@ -70,9 +89,10 @@ h5.friends {
   height: 475px;
   border: #9727FA solid 2px;
   box-sizing: border-box;
-  position: absolute; right: 7%; top: 85px;
+  position: absolute; right: 7%; top: 175px;
   text-align: center;
   color: #4B4B4B;
+  margin-top: 7%;
 }
 
 .text-padding {
@@ -83,4 +103,69 @@ h5.friends {
 
 .text-right {
   position:absolute; right: 10px;
+}
+
+// this is our webpage
+// .container-images{
+//   padding: 100px;
+//   height: 1000px;
+//   width: 1500px;
+// }
+
+.hover:hover{
+filter: brightness(.2);
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+.image2 {
+  width: 500px;
+  height: 450px;
+  float: left;
+}
+
+.image3 {
+  width: 500px;
+  height: 500px;
+}
+
+.image4 {
+  width: 500px;
+  float: left;
+  position: relative; top: -100px;
+}
+
+.image5 {
+  width: 500px;
+  height: 400px;
+  float: left;
+  position: relative; top: -50px;
+}
+
+.image6 {
+  width: 500px;
+}
+
+.image7 {
+  width: 500px;
+  height: 800px;
+}
+.image8 {
+  width: 500px;
+  position: relative; top: -765px; left: 500px;
+}
+.image9 {
+  width: 500px;
+  position: relative; top: -500px; right: 504px;
+}
+
+.image10 {
+  width: 500px;
+  height: 328px;
+  position: relative; top: -414px; right: 509px;
 }
